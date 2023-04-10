@@ -10,11 +10,9 @@
     <meta name="keywords" content="Front-end, portifólio,desenvolvedora" />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Thais Lira" />
-
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
-    <link
-      rel="shortcut icon"
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <link rel="shortcut icon"
       href="assets/img/Flower.ico"
       type="image/x-icon"
     />
@@ -46,26 +44,24 @@
     <!--start page content-->
     <main>
       <section id="homePage">
-        <div id="homeText">
-          <p>Olá, o meu nome é</p>
+        <div class="homeText">
+          <span class="color_pink">Olá, o meu nome é</span>
           <h1>Thais Lira</h1>
-          <h2>Desenvolvedora <span id="dynamictext">Front-End</span></h2>
-          <p class="txt">
+          <h2>Desenvolvedora Front-End</h2>
+          <p>
             Cursando o primeiro semestre de análise e desenvolvimento de
             sistemas
           </p>
 
-          <button class="btn">Download CV <span></span></button>
+          <div class="btn_display-flex">
+            <button class="btn">Download CV <span></span></button>
+            <button class="btn"><a href="https://www.linkedin.com/in/t-lira/" target="_blank">Linkedin</a><span></span></button>
+          </div>
 
-          <button class="btn">
-            <a href="https://www.linkedin.com/in/t-lira/" target="_blank"
-              >Linkedin</a
-            ><span></span>
-          </button>
           <!--ADICIONAR O CURRICULO-->
         </div>
 
-        <div id="homePicture">
+        <div class="homePicture">
           <img
             src="assets/img/img-home.png"
             alt="Ilustração"
@@ -75,7 +71,7 @@
 
       <!--Start about me-->
       <section id="aboutMe">
-        <div id="textAbout">
+        <div class="textAbout">
           <h3>Um pouco mais sobre mim</h3>
 
           <p>
@@ -90,14 +86,15 @@
             Visual Studio Code, Git e GitHub.
           </p>
 
-          <button id="showProjects" class="btn">
-            <a href="projets.html">Meus projetos <span></span> </a>
+          <button class="showProjects btn">
+            <a href="projets.html">Meus projetos <span></span></a>
           </button>
         </div>
 
-        <div id="profilePicture">
+        <div class="profilePicture">
           <img src="assets/img/imagemperfil.png" alt="Foto de perfil" />
         </div>
+
       </section>
       <!--End about me-->
 
@@ -155,9 +152,10 @@
     </main>
     <!--End page content-->
     <!--START ASIDE ACCESS-->
-    <aside id="contact">
+    <aside id="aside-talktome_contact">
       <h6>Me acompanhe nas minhas redes sociais</h6>
-      <div class="access">
+      <div class="a-contact-access">
+
         <div class="iconAside">
           <a href="https://www.instagram.com/t.lira_/" target="_blank">
             <img
@@ -212,11 +210,9 @@
     <!--END ASIDE ACCESS-->
 
     <!--start footer-->
-    <footer>
-      <p>
-        Feito com <img src="assets/img/core.png" alt="Imagem de coração" />
-        <br />
-        &copy 2023 - Todos os direitos reservados
+    <footer class="footer">
+      <p class="txt-footer">
+        Feito com <img src="assets/img/core.png" alt="Imagem de coração"> &copy 2023 - Todos os direitos reservados
       </p>
     </footer>
     <!--End footer-->

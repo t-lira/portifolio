@@ -1,0 +1,411 @@
+@charset "UTF-8";
+
+@import url(/css/reset.css);
+@import url(/css/navigation.css);
+
+/*BUTTONS*/
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    
+    width: 90%;
+    height: 45px;
+    cursor: pointer;
+    box-shadow: 5px 5px 24px rgba(14, 14, 14, 0.315);
+    background-color: var(--color1);
+    margin: 8px;
+    color: var(--color3);
+
+}
+
+.btn span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*TEXT*/
+ 
+p {
+    text-align: justify;
+    color: var(--color3);
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;  
+    line-height: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--color3);
+    padding: 10px 0px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--color3);
+    padding: 15px 0px;
+    
+}
+
+h3 {
+    color: var(--color4);
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h4{
+    color: var(--color4);
+    font-size: 1.6rem;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+h6 {
+    color: var(--color4);
+    padding: 10px 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/*SECTION HOME PAGE*/
+
+#homePage {
+    padding: 0 5%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#homePage .homePicture{
+    display: none;
+}
+
+#homePage .homeText .color_pink{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--color4);
+    letter-spacing: 2px;
+}
+
+/*SECTION ABOUT ME*/
+
+#aboutMe {
+    padding: 0 5%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMe .profilePicture img {
+    width: 180px;
+}
+
+#aboutMe .showProjects {
+    margin: 20px 0px;
+}
+
+/*SECTION SKILLS*/
+
+#skills {
+    padding: 0 5%;
+    min-height: 50vh;
+}
+
+
+#skills .hardSkills{     
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;  
+}
+
+#skills .hardSkills .icon-shills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80px; 
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
+}
+
+#skills .hardSkills .icon-shills:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+#skills .hardSkills .icon-shills p{
+    color: var(--color3);
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px 0;   
+    font-weight: 800;
+}
+
+#skills .hardSkills .icon-shills .img-icon{
+    width: 30px;
+}
+
+/*PROJECTS*/
+
+#projects {
+    min-height: 100vh;
+    padding: 5%;
+    text-align: center;
+}
+
+#projects h3 {
+    color: var(--color4);
+    font-family: var(--font1);
+    font-weight: lighter;
+    font-size: 1.8rem;
+    padding: 25px 0px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+}
+
+.myProjects {
+    padding: 100px;
+    background-color: #40527c38;
+}
+
+.myProjects:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+/*ASIDE*/
+
+#aside-talktome_contact {
+    padding: 0% 5%;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside-talktome_contact .a-contact-access {
+    display: flex;
+    justify-content: center;
+}
+
+.a-contact-access .iconAside {
+    margin-left: 5px;
+}
+
+.a-contact-access .iconAside:hover {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.a-contact-access .iconAside img {
+    width: 50px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: var(--color2);
+    padding: 5px 0;
+}
+
+.footer .txt-footer {
+    color: var(--color3);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer img {
+    width: 12px;
+}
+
+/*TABLETS E IPADS*/
+
+@media screen and (min-width:768px) {
+    .btn {
+        width: 50%;
+    }
+
+    #homePage {
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-around;
+    }
+
+    #homePage .homePicture{
+        display: block;    
+    }
+
+    #homePage .homePicture img{
+        width: 400px;   
+    }
+
+    .btn_display-flex{
+        display: flex;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .git{
+        width: 40%;
+        margin: 25px auto;
+    }
+   
+
+}
+
+/*NOTEBOOKS */
+@media screen and (min-width:1024px) {
+    /*BUTTONS*/
+
+    /*TEXT*/
+
+    p {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;  
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    
+    h4{
+        font-size: 1.9rem;
+    }
+    
+    h6 {
+        font-size: 1.4rem; 
+        letter-spacing: 2px;
+    }
+
+    /*SECTION HOME PAGE*/
+
+    #homePage .homeText{
+        text-align: left;
+        line-height: 1.3rem;
+    }
+
+    #homePage .homeText p{
+        width: 100%;
+    }
+
+    /*SECTION ABOUT ME*/
+
+    #aboutMe {
+        display: flex;
+        flex-direction: row; 
+
+        min-height: 90vh;
+    }
+
+    #aboutMe .profilePicture img {
+        width: 350px;
+        margin-right: 100px;
+    }
+
+    #aboutMe .showProjects {
+        width: 20%;
+
+    }
+
+    /*SECTION SKILLS*/
+    #skills {
+    min-height: 65vh;
+    }
+
+    
+    #skills .hardSkills{     
+        grid-template-columns: 1fr 1fr 1fr;    
+    }
+
+    #skills .hardSkills .icon-shills{
+        flex-direction: row;
+        width: 100%;
+        height: 70px; 
+    }
+
+    #skills .hardSkills .icon-shills .img-icon{
+        width: 50px;
+    }
+
+
+    /*PROJECTS*/
+
+    .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
+    .git{
+        width: 20%;
+        margin: 50px auto;
+    }
+
+    /*ASIDE*/
+
+    #aside-talktome_contact {
+        min-height: 30vh;
+    }
+
+    .a-contact-access .iconAside img {
+        width: 70px;
+    }
+
+    /*FOTTER*/
+    .footer .txt-footer {
+        font-size: 1rem;
+    }
+    .footer img {
+        width: 16px;
+    }
+
+}

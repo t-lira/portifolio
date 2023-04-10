@@ -1,0 +1,22 @@
+/*HEADER*/
+header {
+  background-color: var(--color2);
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+}
+
+header img {
+  width: 30px;
+}
+
+#burguer {
+  color: var(--color3);
+  margin: 5px;
+}
+
+.topnav {
+  display: none;/*IMPORTANTE - fazer o responsivo*/ 
+}
