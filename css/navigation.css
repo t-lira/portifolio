@@ -1,22 +1,45 @@
-/*HEADER*/
-header {
-  background-color: var(--color2);
-  display: flex;
-  justify-content: space-around;
-  padding: 5px 0;
-  position: fixed;
-  width: 100%;
+header{
+  visibility: hidden; /*fazer responsivo*/
 }
 
-header img {
+@media(min-width:1024px){
+
+  .header{
+    visibility: visible; /*remover*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color2);
+    padding: 5px;
+  }
+
+  #burguer{
+    display: none;
+  }
+
+  .navigation ul{
+    visibility: visible;
+    display: flex;
+    gap: 20px;
+  }
+  .navigation ul li a{
+    color: var(--color3);
+  }
+ 
+  .navigation ul li a:hover{
+    font-weight: bold;
+    color: var(--color1);
+    
+  }
+
+  .box-header{
+    display: flex;
+    gap: 25px;
+  }
+
+ .icon-header{
   width: 30px;
-}
+  visibility: visible;
+ }
 
-#burguer {
-  color: var(--color3);
-  margin: 5px;
-}
-
-.topnav {
-  display: none;/*IMPORTANTE - fazer o responsivo*/ 
 }

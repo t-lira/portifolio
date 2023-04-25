@@ -1,0 +1,62 @@
+/*PROJECTS*/
+
+.section-projects {
+  min-height: 100vh;
+  padding: 5%;
+  text-align: center;
+}
+
+.s-title-projects {
+  color: var(--color4);
+  font-family: var(--font1);
+  font-weight: lighter;
+  font-size: 1.8rem;
+  padding: 25px 0px;
+}
+
+.s-container-projects {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ align-items: center;
+}
+
+.box-projects {
+  padding: 100px;
+  background-color: #40527c38;
+  border-radius: 5px;
+}
+
+.box-projects:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+@media(min-width:768px){
+  .s-container-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .btn-projects-git{
+    width: 40%;
+    margin-top: 40px;
+   }
+
+}
+
+@media(min-width:1024px){
+  .s-container-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   }
+
+   .btn-projects-git{
+    width: 20%;
+   }
+
+}
+
+
+

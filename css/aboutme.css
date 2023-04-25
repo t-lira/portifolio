@@ -1,0 +1,62 @@
+
+.section-aboutme {
+  padding: 0 5%;
+  text-align: center;
+}
+
+.s-box-aboutme-text .title-aboutme{
+  font-size: 1.6rem;
+  font-family: var(--font1);
+  font-weight: lighter;
+  padding: 20px 0;
+  color: var(--color4);
+}
+
+.s-box-aboutme-text .text-aboutme{
+  line-height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.s-aboutme-picture .img-aboutme{
+  display: none;
+}
+
+@media(min-width:768px){
+  .s-aboutme-container{
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
+@media(min-width:1204px){
+
+  .section-aboutme {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-items: center;
+
+    min-height: 100vh;
+    background-image: url(../assets/img/tiny_grid.png);
+    
+  }
+
+  .s-box-aboutme-text{
+    width: 70%;
+    margin: auto;
+  }
+
+  .s-box-aboutme-text .title-aboutme{
+    font-size: 2rem;
+  }
+
+  .s-aboutme-picture .img-aboutme{
+    width: 60%;
+    display: block;
+  }
+
+}

@@ -23,187 +23,234 @@
   </head>
 
   <body>
-    <!--start header-->
-    <header>
+    <!--START HEADER-->
+    <header class="header">
       <div id="logo">
-        <a href="index.html"><img src="assets/img/logo.png" alt="Logo" /></a>
+        <a href="index.html">
+          <img src="assets/img/logo.png" alt class="icon-header">
+        </a>
       </div>
+
       <span id="burguer" class="material-symbols-outlined">menu </span>
+
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html" lang="en">Home</a></li>
+          <li><a href="#aboutMe">Sobre</a></li>
+          <li><a href="#skills" lang="en">Skills</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#aside">Contato</a></li>
+        </ul>
+      </nav>
+      
+      <div class="box-header">
+        <a href="https://github.com/t-lira" target="_blank">
+          <img src="assets/img/github_logo_icon.png" alt class="icon-header" title="GitHub">
+        </a>
+         <a href="https://www.linkedin.com/in/t-lira/" target="_blank">
+          <img src="assets/img/linkedin_logo_icon.png" alt class="icon-header" title="Linkedin">
+        </a>
+        <a href="https://t.me/LIra_t" target="_blank">
+          <img src="assets/img/airplane_logo_icon.png" alt class="icon-header" title="Telegram">
+        </a>
+      </div>
     </header>
-    <nav>
-      <ul class="topnav">
-        <li><a href="index.html" lang="en">Home</a></li>
-        <li><a href="#aboutMe">Sobre</a></li>
-        <li><a href="#skills" lang="en">Skills</a></li>
-        <li><a href="projets.html">Projetos</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
-    </nav>
-    <!--End header-->
+    <!--END HEADER-->
 
-    <!--start page content-->
     <main>
-      <section id="homePage">
-        <div class="homeText">
-          <span class="color_pink">Olá, o meu nome é</span>
-          <h1>Thais Lira</h1>
-          <h2>Desenvolvedora Front-End</h2>
-          <p>
+      <!--START SECTION HOME PAGE-->
+      <section id="homepage" class="section-homepape">
+
+        <div class="s-homepage-container">
+          
+          <span class="txt-homepage">Olá, o meu nome é</span>
+          <h1 class="name-homepage">Thais Lira</h1>
+
+           
+          <p class="text-homepage">
             Cursando o primeiro semestre de análise e desenvolvimento de
-            sistemas
+            sistemas, participando do programa Elas na tech.
           </p>
 
-          <div class="btn_display-flex">
-            <button class="btn">Download CV <span></span></button>
-            <button class="btn"><a href="https://www.linkedin.com/in/t-lira/" target="_blank">Linkedin</a><span></span></button>
+          <div class="s-box-button-homepage display_center">
+            <button class="btn">
+              Download CV <span></span><!--ADICIONAR O CURRICULO-->
+            </button>
+            <button class="btn">
+              <a href="https://www.linkedin.com/in/t-lira/" target="_blank">Linkedin</a><span></span>
+            </button>
+          </div> 
+        </div>
+
+        <div class="s-homepage-picture display_center">
+          <img src="assets/img/img-home.png"
+            alt class="img-homepage"/>       
+        </div>
+      </section>
+      <!--END SECTION HOME PAGE-->
+
+      <!--START SECTION ABOUT ME-->
+      <section id="aboutMe" class="section-aboutme">
+        <div class="s-aboutme-container">
+          <div class="s-box-aboutme-text">
+            <h3 class="title-aboutme">
+              Um pouco mais sobre mim
+            </h3>
+
+            <p class="text-aboutme">
+              Thais Lira, 29, moradora do extremo leste de São Paulo. Pedagoga
+              especialista em educação infantil e letramento. 
+            </p>
+            <p class="text-aboutme">Cursando o primeiro
+              semestre de Análise e desenvolvimento de sistemas na UNINOVE, com
+              conclusão prevista para o primeiro semestre de 2025. Participando do programa Elas na tech.</p>
+            <p class="text-aboutme">
+              Atualmente, estou desenvolvendo experiência em projetos pessoais com
+              tecnologias como: HTML, CSS e Javascript. Utilizo como ferramenta o
+              Visual Studio Code, Git e GitHub.
+            </p>
+
+            <button class="btn-projects btn">
+              <a href="#projects">Meus projetos <span></span></a>
+            </button>
           </div>
-
-          <!--ADICIONAR O CURRICULO-->
         </div>
 
-        <div class="homePicture">
-          <img
-            src="assets/img/img-home.png"
-            alt="Ilustração"
-          />
-        </div>
-      </section>
-
-      <!--Start about me-->
-      <section id="aboutMe">
-        <div class="textAbout">
-          <h3>Um pouco mais sobre mim</h3>
-
-          <p>
-            Thais Lira, 29, moradora do extremo leste de São Paulo. Pedagoga
-            especialista em educação infantil e letramento. Cursando o primeiro
-            semestre de Análise e desenvolvimento de sistemas na UNINOVE, com
-            conclusão prevista para o primeiro semestre de 2025.
-          </p>
-          <p>
-            Atualmente, estou desenvolvendo experiência em projetos pessoais com
-            tecnologias como: HTML, CSS e Javascript. Utilizo como ferramenta o
-            Visual Studio Code, Git e GitHub.
-          </p>
-
-          <button class="showProjects btn">
-            <a href="projets.html">Meus projetos <span></span></a>
-          </button>
-        </div>
-
-        <div class="profilePicture">
-          <img src="assets/img/imagemperfil.png" alt="Foto de perfil" />
+        <div class="s-aboutme-picture display_center">
+          <img src="assets/img/imagemperfil.png" class="img-aboutme">
         </div>
 
       </section>
-      <!--End about me-->
+      <!--END SECTION ABOUT ME-->
 
-      <section id="skills">
-        <h4>Hard Skills</h4>
+      <!--START SECTION SKILLS-->
+      <section id="skills" class="section-skills">
+        <h4 class="s-title-skills">
+          Hard Skills
+        </h4>
 
-        <div class="hardSkills">
-            <div class="icon-shills">
+        <div class="s-container-skills">
+
+            <div class="s-box-shills">
                 <img src="assets/img/html.png" class="img-icon">
-                <p>HTML5</p>
+                <h3 class="title-skills">HTML5</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/css.png" class="img-icon">
-                <p>CSS3</p>
+                <h3 class="title-skills">CSS3</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/sass.png" class="img-icon">
-                <p>SASS</p>
+                <h3 class="title-skills">SASS</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/bootstrap.png" class="img-icon">
-                <p>BOOTSTRAP</p>
+                <h3 class="title-skills">BOOTSTRAP</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/javascript.png" class="img-icon">
-                <p>JAVASCRIPT</p>
+                <h3 class="title-skills">JAVASCRIPT</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/typescript.png" class="img-icon">
-                <p>TYPESCRIPT</p>
+                <h3 class="title-skills">TYPESCRIPT</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/git.png" class="img-icon">
-                <p>GIT</p>
+                <h3 class="title-skills">GIT</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/react.png" class="img-icon">
-                <p>REACT.JS</p>
+                <h3 class="title-skills">REACT.JS</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/next.png" class="img-icon">
-                <p>NEXT.JS</p>
+                <h3 class="title-skills">NEXT.JS</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/node.png" class="img-icon">
-                <p>NODE.JS</p>
+                <h3 class="title-skills">NODE.JS</h3>
             </div>
-            <div class="icon-shills">
+            <div class="s-box-shills">
                 <img src="assets/img/express.png" class="img-icon">
-                <p>EXPRESS.JS</p>
+                <h3 class="title-skills">EXPRESS.JS</h3>
             </div>
+        </div>
+
+        <div class="s-box-soft-skills">
+          <h4 class="s-title-skills">
+            Soft Skills
+          </h4>
+          <ul>
+            <li class="list"><span></span> Trabalho em equipe</li>
+            <li class="list"><span></span> Resiliência</li>
+            <li class="list"><span></span> Criatividade e inovação</li>
+            <li class="list"><span></span> Comunicação</li>
+            <li class="list"><span></span> Princípios Éticos</li>
+            <li class="list"><span></span> Inteligência emocional</li>
+            <li class="list"><span></span> Organização</li>
+            <li class="list"><span></span> Resolução de problemas</li>
+          </ul>
+          
+        
+        
         </div>
 
       </section>
     </main>
     <!--End page content-->
+
+      <!--START SECTION PROJECTS-->
+      <section id="projects" class="section-projects">
+        <h3 class="s-title-projects">Meus projetos</h3>
+
+        <div class="s-container-projects">
+          <div class="box-projects zero">
+            <a href="clinicaodonto.netlify.app" target="_blank">Em breve!</a>
+          </div>
+          <div class="box-projects one">
+            <a href="" target="_blank">Em breve!</a>
+          </div>
+          <div class="box-projects two">
+            <a href="" target="_blank">Em breve!</a>
+          </div>
+
+          <div class="box-projects three">
+            <a href="" target="_blank">Em breve!</a>
+          </div>
+          <div class="box-projects four">
+            <a href="" target="_blank">Em breve!</a>
+          </div>
+          <div class="box-projects five">
+            <a href="" target="_blank">Em breve!</a>
+          </div>
+        </div>
+
+        <button class="btn btn-projects-git">
+          <a href="https://github.com/t-lira" target="_blank"
+            >github <span></span
+          ></a>
+        </button>
+      </section>
+      <!--END SECTION PROJECTS-->
+
     <!--START ASIDE ACCESS-->
-    <aside id="aside-talktome_contact">
-      <h6>Me acompanhe nas minhas redes sociais</h6>
-      <div class="a-contact-access">
+    <aside id="aside" class="contact">
 
-        <div class="iconAside">
-          <a href="https://www.instagram.com/t.lira_/" target="_blank">
-            <img
-              src="assets/img/Instagram.svg"
-              alt="Imagem do icone da rede social instagram, com link para mesma."
-              title="Instagram"
-            />
-          </a>
+      <h6 class="title-aside">Entre em contato</h6>
+      
+      <div class="a-container-contact">
+        <div class="a-box-contact">
+          <a href="https://www.linkedin.com/in/t-lira/" target="_blank"><img src="assets/img/_network_icon.png" alt="icone da rede social linkedin, com link para mesma." title="Linkedin" class="img-aside"></a>
         </div>
 
-        <div class="iconAside">
-          <a href="https://www.linkedin.com/in/t-lira/" target="_blank">
-            <img
-              src="assets/img/Linkedin.svg"
-              alt="Imagem do icone da rede social linkedin, com link para mesma."
-              title="LInkedin"
-            />
-          </a>
+
+        <div class="a-box-contact">
+          <a href="https://github.com/t-lira" target="_blank"><img src="assets/img/developer_icon.png" alt="icone da rede social github, com link para mesma." title="GitHub" class="img-aside"></a>
         </div>
 
-        <div class="iconAside">
-          <a href="https://twitter.com/" target="_blank">
-            <img
-              src="assets/img/Twitter.svg"
-              alt="Imagem do icone da rede social twitter, com link para mesma."
-              title="Tiwitter"
-            />
-          </a>
-        </div>
-
-        <div class="iconAside">
-          <a href="https://github.com/t-lira" target="_blank">
-            <img
-              src="assets/img/gitHub.svg"
-              alt="Imagem do icone da rede social github, com link para mesma."
-              title="GitHub"
-            />
-          </a>
-        </div>
-
-        <div class="iconAside">
-          <a href="https://t.me/LIra_t" target="_blank">
-            <img
-              src="assets/img/Telegram.svg"
-              alt="Imagem do icone da rede social Telegram, com link para mesma."
-              title="Telegram"
-            />
-          </a>
+        <div class="a-box-contact">
+          <a href="https://t.me/LIra_t" target="_blank"><img src="assets/img/network_icon.png" alt="icone da rede social Telegram, com link para mesma." title="Telegram" class="img-aside"></a>
         </div>
       </div>
     </aside>
@@ -212,7 +259,7 @@
     <!--start footer-->
     <footer class="footer">
       <p class="txt-footer">
-        Feito com <img src="assets/img/core.png" alt="Imagem de coração"> &copy 2023 - Todos os direitos reservados
+        Feito com <img src="assets/img/core.png" alt class="img-footer"> &copy 2023
       </p>
     </footer>
     <!--End footer-->
