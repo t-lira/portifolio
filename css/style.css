@@ -12,11 +12,12 @@
 /*SECTION HOME PAGE*/
 
 .section-homepape{
-  padding: 20% 3%;
+  padding: 3%;
   text-align: center;
   display: flex;
   flex-direction: column-reverse; 
   align-items: center;
+  background-image: url(../assets/img/tiny_grid.png);
   
 }
 

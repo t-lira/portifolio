@@ -4,6 +4,7 @@
   min-height: 100vh;
   padding: 5%;
   text-align: center;
+  
 }
 
 .s-title-projects {
@@ -46,6 +47,8 @@
 }
 
 @media(min-width:1024px){
+
+ 
   .s-container-projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -9,8 +9,10 @@
   width: 80%;
   height: 45px;
   cursor: pointer;
-  box-shadow: 5px 5px 24px rgba(14, 14, 14, 0.315);
+  box-shadow: 3px 3px 10px rgba(14, 14, 14, 0.315);
+  background-color: transparent;
   background-color: var(--color1);
+  
   margin: 8px;
   color: var(--color5);
   font-weight: bold;
