@@ -1,7 +1,6 @@
 
 .section-skills {
-  padding: 0 5%;
-
+  padding: 0 5%; 
 }
 
 .s-title-skills{
@@ -11,6 +10,7 @@
   padding: 20px 0;
   color: var(--color4);
   margin-top: 20px;
+
 }
 
 .title-skills{
@@ -84,7 +84,7 @@
   }
   .s-box-soft-skills ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
 
@@ -94,11 +94,10 @@
 
   
   .section-skills{
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
 
   .s-box-soft-skills ul{
