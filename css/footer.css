@@ -11,38 +11,33 @@
   flex-direction: column;
 }
 
-.title-footer{
+.box-footer .title-footer{
   color: var(--color4);
   font-size: 1.4rem;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
-.txt-footer{
+.box-footer .txt-footer{
   color: var(--color3);
   text-align: center;
-  font-weight: lighter;
-  color: var(--color3);
-  margin: 20px 5px 10px; 
+  margin: 10px 5px 15px; 
 }
 
-.footer .img-footer {
+.box-footer .img-footer {
   width: 12px;
 }
 
-.box-footer-icons img {
+.box-footer-icons .box-footer-img {
   width: 40px;
-  margin: 20px 5px 10px; 
+  margin: 5px 5px 10px; 
 }
 
-
 @media screen and (min-width:768px){
-  
-  .txt-footer{
-    margin: 5px; 
-  }
-
   .box-footer{
     width: 40%;
+  }
+  .box-footer  .txt-footer{
+    margin: 5px; 
   }
 }
 

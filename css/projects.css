@@ -1,12 +1,10 @@
-/*PROJECTS*/
 .section-projects {
   min-height: 100vh;
   padding: 5%;
   text-align: center;
-
 }
 
-.s-title-projects {
+.section-projects .s-title-projects {
   color: var(--color4);
   font-family: var(--font1);
   font-weight: lighter;
@@ -15,36 +13,32 @@
 }
 
 .box-projects {
-  background-color: #40527c38;
+  background-color: #bdc6db38;
   border-radius: 5px;
   margin-bottom: 20px;
-
 }
 
-.box-img:hover {
+.box-projects:hover {
   -webkit-transform: scale(1.01);
   -ms-transform: scale(1.01);
   transform: scale(1.01);
 }
 
-.box-title{
+.box-projects .box-title{
   color: var(--color4);
   font-size: 1.3rem;
   padding: 10px 0;
 }
 
-.txt-box{
+.box-projects .txt-box{
   font-size: 1rem;
   line-height: 1.2rem;
   padding: 5px 0;
-
 }
 
-.box-img{
-  background-image: url(../assets/img/alert.jpg);
+.box-projects .box-img{
+  background: transparent url(../assets/img/communication.png) no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   min-height: 100%;
   padding: 100px;
   border-radius: 5px 0px 0px 5px;
@@ -56,23 +50,18 @@
 }
 
 
+
 @media(min-width:768px){
   .box-projects {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center; 
-  
-  }
-  
-   .box-img{
-    padding: 150px;
   }
 
 }
 
 @media(min-width:1024px){
-
   .s-container-projects{
     display: grid;
     grid-template-columns: 1fr 1fr;

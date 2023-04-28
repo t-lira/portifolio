@@ -3,12 +3,18 @@
   padding: 0 5%; 
 }
 
-.s-title-skills{
+.section-skills .s-title-skills{
   font-size: 1.8rem;
   text-align: center;
   padding: 20px 0;
   color: var(--color4);
   margin-top: 20px;
+}
+
+.section-skills .s-text-skills{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
 }
 
 .title-skills{
@@ -75,7 +81,6 @@
 
   .s-box-img{
     display: block;
-
   }
 
   .s-box-img img{

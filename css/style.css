@@ -9,16 +9,6 @@
 @import url(/css/button.css);
 @import url(/css/projects.css);
 
-
-.title{
-  font-size: 2rem;
-}
-
-.text{
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: center;
-}
 /*SECTION HOME PAGE*/
 
 .section-homepape{
@@ -63,7 +53,13 @@
   justify-content: center;
 }
 
+
+
+
 @media (min-width:768px){
+  .img-homepage{
+    width: 80%;
+  }
  
   .display_center{
     display: flex;
