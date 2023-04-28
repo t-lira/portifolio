@@ -9,6 +9,16 @@
 @import url(/css/button.css);
 @import url(/css/projects.css);
 
+
+.title{
+  font-size: 2rem;
+}
+
+.text{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
 /*SECTION HOME PAGE*/
 
 .section-homepape{
@@ -37,10 +47,11 @@
   line-height: 1.5rem;
   font-weight: lighter; 
   padding: 5px 0;
+  margin-bottom: 5px;
 }
 
 .img-homepage{
-  max-width: 60%;
+  width: 90%;
 }
 
 .s-box-button-homepage{
@@ -54,9 +65,6 @@
 
 @media (min-width:768px){
  
-  .img-homepage{
-    max-width: 30%;
-  }
   .display_center{
     display: flex;
     justify-content: center;
@@ -72,26 +80,15 @@
 @media (min-width:1024px){
   .section-homepape{
     padding: 10%;
-
     flex-direction: row; 
     justify-content: space-around;
     align-items: center;
     align-content: center;
     height: 100vh;
-
   }
 
   .s-homepage-container{
     width: 40%;
   }
 
-  .s-homepage-picture{
-    width: 50%;
-  }
-
-  .img-homepage{
-    max-width: 100%;
-  }
- 
- 
 }

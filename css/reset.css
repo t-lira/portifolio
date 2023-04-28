@@ -12,15 +12,17 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 a{
   color: var(--color5);
 }
+
 html,body {
   background-color: var(--color3); 
 }
 
 :root {
-  --color1: #71c4d6;/*button*/
+  --color1: #78CFE3; /*button*/
   --color2: #343434;/*header and footer*/
   --color3: #e5e5e5;/*backgrond*/
   --color4: #D9556D;/*title*/

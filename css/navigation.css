@@ -1,67 +1,74 @@
-header{
+header {
   background-color: var(--color2);
   padding: 10px;
   position: fixed;
   width: 100%;
   z-index: 1;
-
 }
-.logo a{
+
+.logo a {
   display: none;
 }
 
-.navigation ul li a{
+.navigation ul li a {
   display: none;
 }
 
-#burguer{
+#burguer {
   color: var(--color3);
 }
 
-.icon-header{
+.box-header {
   display: none;
 }
 
-@media(min-width:1024px){
-
-  .header{
+@media (min-width: 1024px) {
+  .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .logo a{
+
+  .logo a {
     color: var(--color3);
     font-variant: small-caps;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     display: block;
   }
 
-  #burguer{
+  #burguer {
     display: none;
   }
 
-  .navigation ul{
-    
+  .navigation ul {
     display: flex;
     gap: 10px;
   }
-  .navigation ul li a{
+
+  .navigation ul li a {
     color: var(--color3);
     display: block;
   }
- 
-  .navigation ul li a:hover{
+
+  .navigation ul li a:hover {
     color: var(--color1);
   }
 
-  .box-header{
+  .box-header {
+    visibility: visible;
     display: flex;
     gap: 15px;
+
   }
 
- .icon-header{
-  width: 30px;
-  display: block;
- }
+  .box-header-img {
+    width: 30px;
+    border-radius: 20px;
 
+  }
+
+  .box-header-img:hover {
+    opacity: 0.5;
+    transition: 0.9s;
+  }
 }
