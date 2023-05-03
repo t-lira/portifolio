@@ -1,0 +1,18 @@
+.title__skills{
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--colorPink);
+  padding: 1rem;
+}
+
+.text__skills{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center; 
+}
+
+.title-skills{
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+

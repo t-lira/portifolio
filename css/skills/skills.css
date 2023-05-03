@@ -1,0 +1,16 @@
+.section__skills {
+  padding: 0 1rem; 
+}
+
+@media (min-width:1024px){
+  .section__skills{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+  }
+}
+
+
+

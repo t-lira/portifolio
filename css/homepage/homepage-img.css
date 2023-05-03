@@ -1,0 +1,13 @@
+.img__homepage{
+  width: 90%;
+}
+
+@media (min-width:768px){
+  .img__homepage{
+    width: 80%;
+  }
+
+  .homepage__picture{
+    padding-left: 5rem;
+  }
+}

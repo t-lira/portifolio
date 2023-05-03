@@ -1,0 +1,10 @@
+.img__aboutme{
+  display: none;
+}
+
+@media(min-width:1204px){
+  .img__aboutme{ 
+    display: block;
+    width: 400px;
+  }
+}

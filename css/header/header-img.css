@@ -1,0 +1,19 @@
+.header__box {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header__box {
+    display: flex; 
+    gap: 10px;
+  }
+
+  .header__img{
+    width: 30px;
+  }
+
+  .header__img:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+  }
+}

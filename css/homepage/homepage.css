@@ -1,0 +1,32 @@
+.section__homepape{
+  padding: 3rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse; 
+  align-items: center;
+}
+
+.button__homepage{
+  margin-top: 20px;
+}
+
+@media (min-width:768px){
+  
+}
+
+@media (min-width:1024px){
+  .section__homepape{
+    padding: 0 5rem;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    
+  }
+
+  .homepage__container{
+    width: 50%;
+  }
+
+}

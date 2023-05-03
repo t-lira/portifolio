@@ -1,0 +1,9 @@
+@media (min-width:1024px){
+  .content__skills{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  }
+}

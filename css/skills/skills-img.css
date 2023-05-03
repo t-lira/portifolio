@@ -1,0 +1,17 @@
+.content__box--img{
+  width: 30px;
+}
+
+
+.box__picture{
+  display: none;
+}
+
+@media (min-width:1024px){
+  .box__picture{
+    display: block;
+  }
+  .img__workspace{
+    width: 70%; 
+  }
+}

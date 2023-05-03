@@ -1,0 +1,39 @@
+.header__link{
+  display: none;
+}
+
+.navigation__link{
+  display: none;
+}
+
+#burguer {
+  color: var(--colorLightGray);
+}
+
+@media (min-width: 1024px){
+  #burguer {
+    display: none;
+  }
+
+  .header__link{
+    color: var(--colorLightGray);
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  .navigation__menu{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navigation__link{
+    color: var(--colorLightGray);
+    display: block;
+  }
+
+  .navigation__link:hover{
+    color: var(--colorBlue);
+  }
+
+}

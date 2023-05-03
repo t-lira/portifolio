@@ -1,90 +1,36 @@
 @charset "UTF-8";
 
+/*reset*/
 @import url(/css/reset.css);
-@import url(/css/navigation.css);
-@import url(/css/footer.css);
-@import url(/css/aside.css);
-@import url(/css/skills.css);
-@import url(aboutme.css);
+/*header*/
+@import url(/css/header/header.css);
+@import url(/css/header/navigation.css);
+@import url(/css/header/header-img.css);
+/*section top*/
+@import url(/css/homepage/homepage-img.css);
+@import url(/css/homepage/homepage-text.css);
+@import url(/css/homepage/homepage.css);
+@import url(/css/homepage/homepage-button.css);
+/*section about-me*/
+@import url(/css/about-me/aboutme.css);
+@import url(/css/about-me/aboutme-img.css);
+@import url(/css/about-me/aboutme-text.css);
+@import url(/css/about-me/aboutme-button.css);
+/*section skills*/
+@import url(/css/skills/skills.css);
+@import url(/css/skills/skills-img.css);
+@import url(/css/skills/skills-text.css);
+@import url(/css/skills/skills-container.css);
+@import url(/css/skills/skills-box.css);
+@import url(/css/skills/skills-content.css);
+
+/*section projects*/
+@import url(/css/projects/projects.css);
+@import url(/css/projects/projects-img.css);
+@import url(/css/projects/projects-text.css);
+/*footer*/
+@import url(/css/footer/footer-img.css);
+@import url(/css/footer/footer-text.css);
+@import url(/css/footer/footer.css);
+/*button*/
 @import url(/css/button.css);
-@import url(/css/projects.css);
-
-/*SECTION HOME PAGE*/
-
-.section-homepape{
-  padding: 20% 3%;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse; 
-  align-items: center;
-}
-
-.name-homepage{
-  font-size: 3rem;
-  letter-spacing: 3px;
-  padding: 10px 0;
-}
-
-.txt-homepage{
-  font-size: 1.4rem;
-  padding: 5px 0;
-  color: var(--color4);
-  font-weight: bold;
-}
-
-.text-homepage{
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: lighter; 
-  padding: 5px 0;
-  margin-bottom: 5px;
-}
-
-.img-homepage{
-  width: 90%;
-}
-
-.s-box-button-homepage{
-  margin-top: 20px;
-}
-
-.display_center{
-  display: flex;
-  justify-content: center;
-}
-
-
-
-
-@media (min-width:768px){
-  .img-homepage{
-    width: 80%;
-  }
- 
-  .display_center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-  .s-homepage-container{
-    width: 60%;
-  }
-
-}
-
-@media (min-width:1024px){
-  .section-homepape{
-    padding: 10%;
-    flex-direction: row; 
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    height: 100vh;
-  }
-
-  .s-homepage-container{
-    width: 40%;
-  }
-
-}

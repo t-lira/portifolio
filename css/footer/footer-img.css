@@ -1,0 +1,13 @@
+.img__footer {
+  width: 12px;
+}
+
+.footer__img {
+  width: 40px;
+  margin: 5px 5px 10px; 
+}
+
+.footer__img:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}

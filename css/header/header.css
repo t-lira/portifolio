@@ -1,0 +1,13 @@
+
+.header {
+  background-color: var(--colorDarkGrey);
+  padding: 10px;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

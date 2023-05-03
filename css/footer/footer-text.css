@@ -1,0 +1,17 @@
+.footer__title{
+  color: var(--colorPink);
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+
+.footer__text{
+  text-align: center;
+  padding: 8px; 
+}
+
+
+@media (min-width:768px){
+  .footer__box{
+    width: 35%;
+  }
+}

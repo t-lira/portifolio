@@ -1,0 +1,22 @@
+.container__skills{     
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 10px;  
+}
+
+@media (min-width:768px){
+  .container__skills
+  {     
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+  }
+}
+
+@media (min-width:1024px){
+  .container__skills
+  {     
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50%;
+  }
+ 
+}

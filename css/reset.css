@@ -1,8 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
 
 * {
   margin: 0;
@@ -13,21 +9,15 @@
   list-style-type: none;
 }
 
-a{
-  color: var(--color5);
-}
-
 html,body {
-  background-color: var(--color3); 
+  background-color: var(--colorLightGray); 
 }
 
 :root {
-  --color1: #78CFE3; /*button*/
-  --color2: #343434;/*header and footer*/
-  --color3: #e5e5e5;/*backgrond*/
-  --color4: #D9556D;/*title*/
-  --color5: #0D0D0D;/*text*/
-
+  --colorBlue: #78CFE3; /*button*/
+  --colorDarkGrey: #343434;/*header and footer*/
+  --colorLightGray: #e5e5e5;/*backgrond*/
+  --colorPink: #D9556D;/*title*/
+  --colorBlack: #0D0D0D;/*text*/
   --font:'Montserrat', sans-serif;
-  --font1: 'Pacifico', cursive;
 }

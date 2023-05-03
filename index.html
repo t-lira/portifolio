@@ -24,34 +24,57 @@
   <body>
     <!--START HEADER-->
     <header class="header">
-      <div class="logo">
-        <a href="index.html">Portifólio</a> 
-      </div>
-
-      <span id="burguer" class="material-symbols-outlined">menu </span>
+     
+      <a href="index.html" class="header__link">
+        Portifólio
+      </a> 
+  
+      <span id="burguer" class="material-symbols-outlined">
+        menu 
+      </span>
 
       <nav class="navigation">
-        <ul>
-          <li><a href="index.html" lang="en">Home</a></li>
-          <li><a href="#aboutMe">Sobre</a></li>
-          <li><a href="#skills" lang="en">Skills</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
+        <ul class="navigation__menu">
+          <li class="navigation__item">
+            <a href="index.html" lang="en" class="navigation__link">
+              Home
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#aboutMe" class="navigation__link">
+              Sobre
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skills" lang="en" class="navigation__link">
+              Skills
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#projects" class="navigation__link">
+              Projetos
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link">
+              Contato
+            </a>
+          </li>
         </ul>
       </nav>
       
-      <div class="box-header">
+      <div class="header__box">
         <a href="https://github.com/t-lira" target="_blank">
-          <img src="assets/img/github_icon.png" alt title="GitHub" class="box-header-img"> 
+          <img src="assets/img/github_icon.png" alt title="GitHub" class="header__img"> 
         </a>
         <a href="https://www.linkedin.com/in/t-lira/" target="_blank">
-          <img src="assets/img/linkedin_icon.png" alt title="Linkedin" class="box-header-img"> 
+          <img src="assets/img/linkedin_icon.png" alt title="Linkedin" class="header__img"> 
         </a>
         <a href="https://www.instagram.com/t.lira_/" target="_blank">
-          <img src="assets/img/instagram_icon.png" alt title="instagram" class="box-header-img"> 
+          <img src="assets/img/instagram_icon.png" alt title="instagram" class="header__img"> 
         </a>
         <a href="https://t.me/LIra_t" target="_blank">
-          <img src="assets/img/_telegram_icon.png" title="Telegram" class="box-header-img">
+          <img src="assets/img/_telegram_icon.png" title="Telegram" class="header__img">
         </a>
       </div>
     </header>
@@ -59,180 +82,237 @@
 
     <main>
       <!--START SECTION HOME PAGE-->
-      <section id="homepage" class="section-homepape">
-
-        <div class="s-homepage-container">
-          <p class="text-homepage"> 
+      <section id="homepage" class="section__homepape">
+        <div class="homepage__container">
+          <p class="text__homepage"> 
             Bem vindo(a), ao meu portifólio!
           </p>
-          <span class="txt-homepage">
+          <span class="txt__homepage">
             Olá, o meu nome é
           </span>
-          <h1 class="name-homepage">
+          <h1 class="name__homepage">
             Thais Lira
           </h1>
-          <p class="text-homepage">
+          <p class="text__homepage">
             Cursando o primeiro semestre de análise e desenvolvimento de
             sistemas e participando do programa Elas na tech.
           </p>
 
-          <div class="s-box-button-homepage display_center">
+          <div class="box__button_homepage">
             <button class="btn">
               Download CV <span></span>
               <!--ADICIONAR O CURRICULO-->
             </button>
             <button class="btn">
-              <a href="https://www.linkedin.com/in/t-lira/" target="_blank">Linkedin</a><span></span>
+              <a href="https://www.linkedin.com/in/t-lira/" target="_blank" class="link__button" >Linkedin</a><span></span>
             </button>
           </div> 
         </div>
 
-        <div class="s-homepage-picture display_center">
+        <div class="homepage__picture">
           <img src="assets/img/from_home_.png"
-            alt class="img-homepage"/>       
+            alt class="img__homepage"/>       
         </div>
       </section>
       <!--END SECTION HOME PAGE-->
 
       <!--START SECTION ABOUT ME-->
-      <section id="aboutMe" class="section-aboutme">
-        <div class="s-aboutme-container">
-          <div class="s-box-aboutme-text">
-            <h3 class="title-aboutme">
+      <section id="aboutMe" class="section__aboutme">
+
+        <div class="container">
+
+        <div class="aboutme__container">
+          <div class="aboutme__box_text">
+            <h3 class="title__aboutme">
              Um pouco mais sobre mim
             </h3>
 
-            <p class="text-aboutme">
+            <p class="text__aboutme">
               Thais Lira, 29, moradora do extremo leste de São Paulo. Pedagoga
               especialista em educação infantil e letramento. Cursando o primeiro semestre de Análise e desenvolvimento de sistemas na UNINOVE, com
               conclusão prevista para o primeiro semestre de 2025. Participando do programa Elas na tech, onde estou tendo a opotunidade de conhecer um pouco mais sobre aplicaçoes web com Java. 
             </p>
-            <p class="text-aboutme">
+            <p class="text__aboutme">
               Fico mais feliz quando estou criando, aprendendo, explorando e pensando em como melhorar as coisas. Atualmente, estou desenvolvendo experiência em projetos pessoais com
               tecnologias como: HTML, CSS e Javascript. Utilizo como ferramenta o
               Visual Studio Code, Git e GitHub.
             </p>
 
-            <button class="btn-projects btn">
-              <a href="#projects">Meus projetos <span></span></a>
+            <button class="btn">
+              <a href="#projects" class="link__button">Meus projetos <span></span></a>
             </button>
           </div>
         </div>
 
-        <div class="s-aboutme-picture display_center">
-          <img src="assets/img/imagemperfil.png" class="img-aboutme">
+        <div class="aboutme__picture">
+          <img src="assets/img/profile-pic.png" class="img__aboutme">
         </div>
-
+      </div>
       </section>
       <!--END SECTION ABOUT ME-->
 
       <!--START SECTION SKILLS-->
-      <section id="skills" class="section-skills">
-        <h2 class="s-title-skills">
+      <section id="skills" class="section__skills">
+        <h2 class="title__skills">
           Linguagens e tecnologias
         </h2>
-        <p class="s-text-skills">
+        <p class="text__skills">
           Aqui estão as linguagens e tecnologias que eu tenho contato.
         </p>
-        <div class="container">
-          <div class="s-container-skills">
-            <div class="s-box-shills">
-                <img src="assets/img/html.png" class="img-icon">
-                <h3 class="title-skills">
-                  HTML5
-                </h3>
+
+        <div class="content__skills">
+        <div class="container__skills">
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/html.png" alt class="content__box--img">
             </div>
-            <div class="s-box-shills">
-                <img src="assets/img/css.png" class="img-icon">
-                <h3 class="title-skills">
-                  CSS3
-                </h3>
+            <div class="text__box">
+              <h3 class="content__box--text">HTML</h3>
             </div>
-            <div class="s-box-shills">
-                <img src="assets/img/sass.png" class="img-icon">
-                <h3 class="title-skills">
-                  SASS
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/bootstrap.png" class="img-icon">
-                <h3 class="title-skills">
-                  BOOTSTRAP
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/javascript.png" class="img-icon">
-                <h3 class="title-skills">
-                  JAVASCRIPT
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/typescript.png" class="img-icon">
-                <h3 class="title-skills">
-                  TYPESCRIPT
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/git.png" class="img-icon">
-                <h3 class="title-skills">
-                  GIT
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/react.png" class="img-icon">
-                <h3 class="title-skills">
-                  REACT.JS
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/next.png" class="img-icon">
-                <h3 class="title-skills">
-                  NEXT.JS
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/node.png" class="img-icon">
-                <h3 class="title-skills">
-                  NODE.JS
-                </h3>
-            </div>
-            <div class="s-box-shills">
-                <img src="assets/img/express.png" class="img-icon">
-                <h3 class="title-skills">
-                  EXPRESS.JS
-                </h3>
-              </div>   
           </div>
 
-          <div class="s-box-img">
-            <img src="assets/img/library.png" alt="" class="img-workspace"> 
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/css.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">CSS</h3>
+            </div>
           </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/sass.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">Sass</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/bootstrap.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">Bootstrap<h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/javascript.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">JavaScript</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/typescript.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">typeScript</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/git.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">Git</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/react.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">React</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/next.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">next</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/node.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">node</h3>
+            </div>
+          </div>
+
+          <div class="box__skills">
+            <div class="box__content__skills">
+              <img src="assets/img/express.png" alt class="content__box--img">
+            </div>
+            <div class="text__box">
+              <h3 class="content__box--text">express</h3>
+            </div>
+          </div>
+
         </div>
-  
+
+        <div class="box__picture">
+          <img src="assets/img/library.png" alt="" class="img__workspace"> 
+        </div>
+        </div>
+   </div>
       </section>
     </main>
     <!--End page content-->
 
       <!--START SECTION PROJECTS-->
-      <section id="projects" class="section-projects">
-        <h3 class="title s-title-projects">Meus projetos</h3>
+      <section id="projects" class="section__projects">
+        <h3 class="title__projects">Meus projetos</h3>
 
-        <div class="s-container-projects">
+        <div class="container__projects">
 
-          <div class="box-projects">
-            <div class="box-img projetc_one">
+          <div class="box__projects">
+            <div class="box__img projetc_one">
               <!--imagem-->
             </div>
-            <div class="box-description">
-              <div class="box-text">
-                <h4 class="box-title">
+            <div class="box__description">
+              <div class="box__text">
+                <h4 class="box__title">
                   Nome projeto
                 </h4>
-                <p class="txt-box">
+                <p class="txt__box">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
-              <div class="btn-box">
+              <div class="btn__box">
+                <button class="btn button-box">
+                  ver projeto <span></span>
+                </button>  
+              </div> 
+            </div>
+          </div>
+
+          <div class="box__projects">
+            <div class="box__img projetc_one">
+              <!--imagem-->
+            </div>
+            <div class="box__description">
+              <div class="box__text">
+                <h4 class="box__title">
+                  Nome projeto
+                </h4>
+                <p class="txt__box">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="btn__box">
                 <button class="btn button-box">
                   ver projeto <span></span>
                 </button>  
@@ -241,20 +321,83 @@
           </div>
 
 
-          <div class="box-projects">
-            <div class="box-img projetc_two">
+          <div class="box__projects">
+            <div class="box__img projetc_one">
               <!--imagem-->
             </div>
-            <div class="box-description">
-              <div class="box-text">
-                <h4 class="box-title">
+            <div class="box__description">
+              <div class="box__text">
+                <h4 class="box__title">
                   Nome projeto
                 </h4>
-                <p class="txt-box">
+                <p class="txt__box">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
-              <div class="btn-box">
+              <div class="btn__box">
+                <button class="btn button-box">
+                  ver projeto <span></span>
+                </button>  
+              </div> 
+            </div>
+          </div>
+
+          <div class="box__projects">
+            <div class="box__img projetc_one">
+              <!--imagem-->
+            </div>
+            <div class="box__description">
+              <div class="box__text">
+                <h4 class="box__title">
+                  Nome projeto
+                </h4>
+                <p class="txt__box">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="btn__box">
+                <button class="btn button-box">
+                  ver projeto <span></span>
+                </button>  
+              </div> 
+            </div>
+          </div>
+
+          <div class="box__projects">
+            <div class="box__img projetc_one">
+              <!--imagem-->
+            </div>
+            <div class="box__description">
+              <div class="box__text">
+                <h4 class="box__title">
+                  Nome projeto
+                </h4>
+                <p class="txt__box">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="btn__box">
+                <button class="btn button-box">
+                  ver projeto <span></span>
+                </button>  
+              </div> 
+            </div>
+          </div>
+
+          <div class="box__projects">
+            <div class="box__img projetc_one">
+              <!--imagem-->
+            </div>
+            <div class="box__description">
+              <div class="box__text">
+                <h4 class="box__title">
+                  Nome projeto
+                </h4>
+                <p class="txt__box">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="btn__box">
                 <button class="btn button-box">
                   ver projeto <span></span>
                 </button>  
@@ -263,92 +406,8 @@
           </div>
 
 
-          <div class="box-projects">
-            <div class="box-img projetc_three">
-              <!--imagem-->
-            </div>
-            <div class="box-description">
-              <div class="box-text">
-                <h4 class="box-title">
-                  Nome projeto
-                </h4>
-                <p class="txt-box">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-              <div class="btn-box">
-                <button class="btn button-box">
-                  ver projeto <span></span>
-                </button>  
-              </div> 
-            </div>
-          </div>
-
-
-          <div class="box-projects">
-            <div class="box-img projetc_four">
-              <!--imagem-->
-            </div>
-            <div class="box-description">
-              <div class="box-text">
-                <h4 class="box-title">
-                  Nome projeto
-                </h4>
-                <p class="txt-box">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-              <div class="btn-box">
-                <button class="btn button-box">
-                  ver projeto <span></span>
-                </button>  
-              </div> 
-            </div>
-          </div>
-
-
-          <div class="box-projects">
-            <div class="box-img projetc_five">
-              <!--imagem-->
-            </div>
-            <div class="box-description">
-              <div class="box-text">
-                <h4 class="box-title">
-                  Nome projeto
-                </h4>
-                <p class="txt-box">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-              <div class="btn-box">
-                <button class="btn button-box">
-                  ver projeto <span></span>
-                </button>  
-              </div> 
-            </div>
-          </div>
-
-
-          <div class="box-projects">
-            <div class="box-img projetc_six">
-              <!--imagem-->
-            </div>
-            <div class="box-description">
-              <div class="box-text">
-                <h4 class="box-title">
-                  Nome projeto
-                </h4>
-                <p class="txt-box">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-              <div class="btn-box">
-                <button class="btn button-box">
-                  ver projeto <span></span>
-                </button>  
-              </div> 
-            </div>
-          </div>
+        
+        </div>
 
       </section>
       <!--END SECTION PROJECTS-->
@@ -356,33 +415,33 @@
     <!--START FOOTER-->
     <footer id="contact" class="footer">
 
-      <div class="box-footer">
-        <h6 class="title-footer">
+      <div class="footer__box">
+        <h6 class="footer__title">
           Entre em contato
         </h6>
-        <p class="txt-footer">
+        <p class="footer__text">
           Você pode me seguir nas minhas redes sociais ou enviar uma mensagem pelo telegram.
         </p>
 
-        <div class="box-footer-icons">
+        <div class="footer__boxicons">
           <a href="https://github.com/t-lira" target="_blank">
-            <img src="assets/img/github_icon.png" alt title="GitHub" class="box-footer-img"> 
+            <img src="assets/img/github_icon.png" alt title="GitHub" class="footer__img"> 
           </a>
           <a href="https://www.linkedin.com/in/t-lira/" target="_blank">
-            <img src="assets/img/linkedin_icon.png" alt title="Linkedin" class="box-footer-img"> 
+            <img src="assets/img/linkedin_icon.png" alt title="Linkedin" class="footer__img"> 
           </a>
           <a href="https://www.instagram.com/t.lira_/" target="_blank">
-            <img src="assets/img/instagram_icon.png" alt title="instagram" class="box-footer-img"> 
+            <img src="assets/img/instagram_icon.png" alt title="instagram" class="footer__img"> 
           </a>
           <a href="https://t.me/LIra_t" target="_blank">
-            <img src="assets/img/_telegram_icon.png" title="Telegram" class="box-footer-img">
+            <img src="assets/img/_telegram_icon.png" title="Telegram" class="footer__img">
           </a>
         </div>
       </div>
 
-      <div class="box-footer">
-        <p class="txt-footer">
-          Feito com <img src="assets/img/core.png" alt class="img-footer"> &copy 2023
+      <div class="footer__box">
+        <p class="footer__text">
+          Feito com <img src="assets/img/core.png" alt class="img__footer"> &copy 2023
         </p>  
       </div>
     </footer>

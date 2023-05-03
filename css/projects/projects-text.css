@@ -1,0 +1,23 @@
+.title__projects {
+  color: var(--colorPink);
+  font-size: 1.8rem;
+  padding: 25px 0px;
+}
+
+.box__title{
+  color: var(--color4);
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+
+.txt__box{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 5px 0;
+}
+
+.box__description{
+  margin: 10px;
+  padding: 10px;
+}
+
