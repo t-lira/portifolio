@@ -1,7 +1,24 @@
-.box__img{
-  background: transparent url(/assets/img/communication.png) no-repeat center;
-  background-size: cover;
-  min-height: 100%;
-  padding: 100px;
+.box__img{ 
   border-radius: 5px 0px 0px 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.projetc_one{
+  background-image: url("/assets/img/"); 
+}
+
+.projetc_two{
+ background-image: url("/assets/img/"); 
+}
+
+.projetc_three{
+  background-image: url("/assets/img/"); 
+}
+
+.projetc_four{
+  background-image: url("/assets/img/"); 
 }

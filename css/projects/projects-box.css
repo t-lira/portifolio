@@ -1,0 +1,32 @@
+.box__projects {
+  background-color: #40657538;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.box__description{
+  padding: 10px;
+  text-align: center; 
+}
+
+
+@media(min-width:768px){
+  .box__projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center; 
+  }
+
+  .box__description{
+    width: 50%;
+  }
+}
+
+@media(min-width:1024px){
+  .box__projects {
+    margin-bottom: 0;
+    width: 570px;
+  }
+
+}

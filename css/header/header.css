@@ -1,7 +1,9 @@
 
 .header {
   background-color: var(--colorDarkGrey);
-  padding: 10px;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {

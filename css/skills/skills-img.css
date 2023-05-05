@@ -2,16 +2,10 @@
   width: 30px;
 }
 
-
-.box__picture{
-  display: none;
-}
-
 @media (min-width:1024px){
   .box__picture{
-    display: block;
-  }
-  .img__workspace{
-    width: 70%; 
+    height: 50vh;
+    padding: 200px;
+    background: url("/assets/img/woman_work.png") no-repeat center/contain;
   }
 }

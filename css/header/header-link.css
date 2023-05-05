@@ -6,15 +6,7 @@
   display: none;
 }
 
-#burguer {
-  color: var(--colorLightGray);
-}
-
 @media (min-width: 1024px){
-  #burguer {
-    display: none;
-  }
-
   .header__link{
     color: var(--colorLightGray);
     font-size: 1.3rem;
@@ -29,11 +21,13 @@
   
   .navigation__link{
     color: var(--colorLightGray);
-    display: block;
+    display: block; 
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
   }
 
   .navigation__link:hover{
-    color: var(--colorBlue);
+    color: var(--colorPink);
   }
 
 }

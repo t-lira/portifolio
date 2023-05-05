@@ -1,32 +1,17 @@
 .section__homepape{
-  padding: 3rem 1rem;
-  text-align: center;
+  padding: 60px 20px;
   display: flex;
   flex-direction: column-reverse; 
   align-items: center;
-}
-
-.button__homepage{
-  margin-top: 20px;
-}
-
-@media (min-width:768px){
-  
+  min-height: 100vh;
 }
 
 @media (min-width:1024px){
   .section__homepape{
-    padding: 0 5rem;
+    padding: 0 150px;
     flex-direction: row; 
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    height: 100vh;
-    
   }
-
-  .homepage__container{
-    width: 50%;
-  }
-
 }

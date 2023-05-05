@@ -1,38 +1,13 @@
 .section__projects {
   min-height: 100vh;
-  padding: 5%;
+  padding: 10px;
   text-align: center;
 }
 
-.box__projects {
-  background-color: #bdc6db38;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.box__projects:hover {
-  -webkit-transform: scale(1.01);
-  -ms-transform: scale(1.01);
-  transform: scale(1.01);
-}
-
 @media(min-width:768px){
-  .box__projects {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center; 
+  .section__projects {
+    padding: 50px;
   }
-
-}
-
-@media(min-width:1024px){
-  .container__projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-  }
-
 }
 
 

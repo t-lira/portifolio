@@ -2,12 +2,14 @@
   color: var(--colorPink);
   font-size: 1.8rem;
   padding: 20px 0;
+  font-family: var(--fontAlternates);
 }
 
 .text__aboutme{
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 @media(min-width:1204px){
@@ -15,8 +17,7 @@
     margin-right: 5rem;
   }
   .text__aboutme{
-    text-align: justify;
-    text-indent: 2rem; 
+    text-align: justify; 
   }
 }
 

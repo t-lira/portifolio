@@ -1,13 +1,32 @@
-.img__homepage{
-  width: 90%;
+.social__img{
+  width: 40px;   
+  transition: all 0.5s ease-in-out;
 }
 
-@media (min-width:768px){
-  .img__homepage{
-    width: 80%;
+.social__box{
+  display: flex; 
+  gap: 20px;
+}
+
+.homepage__picture{
+  height: 30vh;
+  padding: 100px;
+  background: url("/assets/img/work_home.png") no-repeat center/contain;
+}
+
+@media (min-width:1024px){
+  .social__img:hover{
+    opacity: 0.5;
   }
 
   .homepage__picture{
-    padding-left: 5rem;
+    height: 50vh;
+    padding: 200px;
   }
 }
+
+
+
+
+
+

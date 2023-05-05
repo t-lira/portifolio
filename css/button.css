@@ -3,18 +3,18 @@
   border: none;
   text-align: center;
   text-transform: uppercase;
-  width: 50%;
+  width: 200px;
   height: 42px;
   cursor: pointer;
-  border: 1px solid var(--colorBlue);
-  background-color: transparent;
+  background-color: var(--colorBlue);
   margin: 8px;
-  color: var(--colorBlack);
+  color: var(--colorLightGray);
   font-weight: bold;
+  transition: all 1s ease-in-out;
 }
 
 .btn:hover{
-  background-color: var(--colorBlue);
+  background-color: var(--colorLightBlue);
 }
 
 .btn span {
@@ -41,5 +41,6 @@
 }
 
 .link__button{
-  color: var(--colorBlack);
+  color: var(--colorLightGray);
 }
+
