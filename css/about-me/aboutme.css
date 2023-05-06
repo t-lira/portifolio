@@ -1,20 +1,20 @@
 .section__aboutme {
-  padding: 1rem;
+  padding: 16px;
   text-align: center;
 }
 
 @media(min-width:1204px){
   .section__aboutme {
     min-height: 100vh;
-  }
-
-  .container{
-    padding: 1rem 4rem; 
-    margin: 0 4rem;
-
     display: flex;
     align-items: center;
-    align-content: center;
+    flex-direction: row;
+  }
+
+  .container{ 
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
     flex-direction: row;
   }
 }

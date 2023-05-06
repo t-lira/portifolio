@@ -1,7 +1,7 @@
 .title__aboutme{
   color: var(--colorPink);
-  font-size: 1.8rem;
-  padding: 20px 0;
+  font-size: 1.4rem;
+  padding: 10px 0;
   font-family: var(--fontAlternates);
 }
 
@@ -15,6 +15,9 @@
 @media(min-width:1204px){
   .aboutme__box_text{
     margin-right: 5rem;
+  }
+  .title__aboutme{
+    font-size: 1.8rem;
   }
   .text__aboutme{
     text-align: justify; 

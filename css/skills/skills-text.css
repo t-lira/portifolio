@@ -1,5 +1,5 @@
 .title__skills{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: var(--fontAlternates);
   text-align: center;
   color: var(--colorPink);
@@ -20,3 +20,9 @@
   text-transform: uppercase;
 }
 
+@media (min-width:1024px){
+  .title__skills{
+    font-size: 1.8rem;
+  }
+
+}

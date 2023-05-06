@@ -1,5 +1,7 @@
 @media (min-width:1024px){
  .homepage__container{
     margin-right: 80px;
+    width: 40%;
   }
+
 }

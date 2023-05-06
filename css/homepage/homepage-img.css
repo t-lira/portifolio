@@ -9,8 +9,7 @@
 }
 
 .homepage__picture{
-  height: 30vh;
-  padding: 100px;
+  padding: 80px;
   background: url("/assets/img/work_home.png") no-repeat center/contain;
 }
 

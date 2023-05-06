@@ -28,5 +28,10 @@
     margin-bottom: 0;
     width: 570px;
   }
+}
 
+@media(min-width:1440px){
+  .box__projects {
+    width: 700px;
+  }
 }
