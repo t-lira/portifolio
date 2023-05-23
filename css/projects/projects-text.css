@@ -16,6 +16,11 @@
 .txt__box{
   font-size: 1rem;
   line-height: 1.4rem;
+  line-height: 1.5;
+}
+.color{
+  color: var(--colorLightBlue);
+  font-weight: bolder;
 }
 
 

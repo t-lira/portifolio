@@ -22,15 +22,18 @@
 <body>
   <!--START HEADER-->
   <header class="header">
-     
-    <a href="index.html" class="header__link">
-      <img src="assets/img/icons/logo.png" alt class="header__img" title="início">
-    </a> 
     
-    <span id="burguer" class="material-symbols-outlined">
-      menu 
-    </span>
-  
+    <div class="header__box">
+      <a href="index.html" class="header__link">
+        <img src="assets/img/icons/logo.png" alt class="header__img" title="início">
+      </a> 
+      
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <span id="burguer" class="material-symbols-outlined menu__burguer" onclick="showMenu()">
+          menu 
+        </span>  
+    </div>
+    
     <nav class="navigation">
       <ul class="navigation__menu">
   
@@ -78,48 +81,32 @@
       </h3>
     
       <div class="container__projects">
+
         <div class="box__projects">
           <div class="box__img projetc_one">
-            <!--imagem-->
-          </div>
-          <div class="box__description">
-            <div class="box__text">
-              <h4 class="box__title">
-                Nome projeto
-              </h4>
-              <p class="txt__box">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.  
-              </p>
-            </div>
-            <div class="btn__box">
-              <button class="btn button-box">
-                ver projeto 
-              </button>
-              <button class="btn button-box">
-                ver codigo 
-              </button>   
-            </div> 
-          </div>
-        </div>
-        <div class="box__projects">
-          <div class="box__img projetc_two">
           <!--image-->
           </div>
           <div class="box__description">
             <div class="box__text">
               <h4 class="box__title">
-                Nome projeto
+                Clínica FK 
               </h4>
               <p class="txt__box">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Lading Page utilizando Mobile First, Flex Box e Grid Layout <br>
+                <span class="color">HTML - CSS - JS</span>
               </p>
             </div>
             <div class="btn__box">
               <button class="btn button-box">
-                ver projeto 
-              </button>  
+                <a href="https://clinicaodonto.netlify.app" target="_blank" class="projects__link">
+                  ver projeto
+                </a> 
+              </button> 
+
               <button class="btn button-box">
-                ver codigo 
+                <a href="https://github.com/t-lira/projeto_clinica" target="_blank" class="projects__link">
+                  ver codigo 
+                </a>
               </button> 
             </div> 
           </div>
@@ -145,6 +132,80 @@
               <button class="btn button-box">
                 ver codigo 
               </button> 
+            </div> 
+          </div>
+        </div>
+
+        <div class="box__projects">
+          <div class="box__img projetc_four">
+            
+          </div>
+          <div class="box__description">
+            <div class="box__text">
+              <h4 class="box__title">
+                Nome projeto
+              </h4>
+              <p class="txt__box">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btn__box">
+              <button class="btn button-box">
+                ver projeto
+              </button>  
+              <button class="btn button-box">
+                ver codigo 
+              </button> 
+
+            </div> 
+          </div>
+        </div>
+
+        <div class="box__projects">
+          <div class="box__img projetc_four">
+            
+          </div>
+          <div class="box__description">
+            <div class="box__text">
+              <h4 class="box__title">
+                Nome projeto
+              </h4>
+              <p class="txt__box">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btn__box">
+              <button class="btn button-box">
+                ver projeto
+              </button>  
+              <button class="btn button-box">
+                ver codigo 
+              </button> 
+
+            </div> 
+          </div>
+        </div>
+        <div class="box__projects">
+          <div class="box__img projetc_four">
+            
+          </div>
+          <div class="box__description">
+            <div class="box__text">
+              <h4 class="box__title">
+                Nome projeto
+              </h4>
+              <p class="txt__box">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="btn__box">
+              <button class="btn button-box">
+                ver projeto
+              </button>  
+              <button class="btn button-box">
+                ver codigo 
+              </button> 
+
             </div> 
           </div>
         </div>
@@ -216,6 +277,7 @@
     </div>
   </footer>
   <!--END FOOTER-->
-  
+
+  <script src="script.js"></script>
 </body>
 </html>

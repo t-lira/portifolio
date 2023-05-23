@@ -1,46 +1,64 @@
 @charset "UTF-8";
 
 /*reset*/
-@import url(/css/reset.css);
+@import url("/css/reset.css");
 
 /*header*/
-@import url(/css/header/header.css);
-@import url(/css/header/header-link.css);
-@import url(/css/header/header-img.css);
-@import url(/css/header/header-burguer.css);
+@import url("/css/header/header.css");
+@import url("/css/header/header-link.css");
+@import url("/css/header/header-img.css");
+@import url("/css/header/header-burguer.css");
+@import url("/css/header/header-box.css");
 
 /*section top*/
-@import url(/css/homepage/homepage-img.css);
-@import url(/css/homepage/homepage-text.css);
-@import url(/css/homepage/homepage.css);
-@import url(/css/homepage/homepage-container.css);
+@import url("/css/homepage/homepage-img.css");
+@import url("/css/homepage/homepage-text.css");
+@import url("/css/homepage/homepage.css");
+@import url("/css/homepage/homepage-container.css");
 
 /*section about-me*/
-@import url(/css/about-me/aboutme.css);
-@import url(/css/about-me/aboutme-img.css);
-@import url(/css/about-me/aboutme-text.css);
-@import url(/css/about-me/aboutme-button.css);
+@import url("/css/about-me/aboutme.css");
+@import url("/css/about-me/aboutme-img.css");
+@import url("/css/about-me/aboutme-text.css");
+@import url("/css/about-me/aboutme-button.css");
 
 /*section skills*/
-@import url(/css/skills/skills.css);
-@import url(/css/skills/skills-img.css);
-@import url(/css/skills/skills-text.css);
-@import url(/css/skills/skills-container.css);
-@import url(/css/skills/skills-box.css);
-@import url(/css/skills/skills-content.css);
+@import url("/css/skills/skills.css");
+@import url("/css/skills/skills-img.css");
+@import url("/css/skills/skills-text.css");
+@import url("/css/skills/skills-container.css");
+@import url("/css/skills/skills-box.css");
+@import url("/css/skills/skills-content.css");
 
 /*section projects*/
-@import url(/css/projects/projects.css);
-@import url(/css/projects/projects-img.css);
-@import url(/css/projects/projects-text.css);
-@import url(/css/projects/projects-button.css);
-@import url(/css/projects/projects-container.css);
-@import url(/css/projects/projects-box.css);
+@import url("/css/projects/projects.css");
+@import url("/css/projects/projects-img.css");
+@import url("/css/projects/projects-text.css");
+@import url("/css/projects/projects-button.css");
+@import url("/css/projects/projects-container.css");
+@import url("/css/projects/projects-box.css");
+
 
 /*footer*/
-@import url(/css/footer/footer-img.css);
-@import url(/css/footer/footer-text.css);
-@import url(/css/footer/footer.css);
+@import url("/css/footer/footer-img.css");
+@import url("/css/footer/footer-text.css");
+@import url("/css/footer/footer.css");
 
 /*button*/
-@import url(/css/button.css);
+@import url("/css/button.css");
+
+
+/*Scrollbar*/
+
+::-webkit-scrollbar{
+  width: 18px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--colorLightGray);
+}
+
+::-webkit-scrollbar-thumb{
+border-radius: 35px;
+background-color: rgb(151, 149, 149);
+}

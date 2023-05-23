@@ -1,9 +1,9 @@
-#burguer {
+.menu__burguer {
   color: var(--colorLightGray);
 }
 
 @media (min-width: 1024px){
-  #burguer {
-    display: none;
+  .menu__burguer {
+   visibility: hidden;
   }
 }

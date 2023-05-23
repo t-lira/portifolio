@@ -1,8 +1,12 @@
-.header__link{
+.navigation__item{
+  text-align: center;
   display: none;
 }
 
+/* Hide the links inside the navigation menu*/
 .navigation__link{
+  color: var(--colorLightGray);
+  font-size: 1.2rem;
   display: none;
 }
 
@@ -14,15 +18,17 @@
     display: block;
   }
 
+  .navigation__item{
+    display: block;
+  }
+
   .navigation__menu{
     display: flex;
     gap: 10px;
   }
   
   .navigation__link{
-    color: var(--colorLightGray);
     display: block; 
-    font-size: 1.2rem;
     transition: all 0.5s ease-in-out;
   }
 

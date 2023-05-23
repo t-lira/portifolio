@@ -1,24 +1,25 @@
 .box__img{ 
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 20px 0px 0px 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 300px;
+  background-position: center;
+  width: 100%;
   height: 250px;
   overflow: hidden;
 }
 
 .projetc_one{
-  background-image: url("/assets/img/"); 
+  background-image: url("/assets/img/project/01.png") ; 
 }
 
 .projetc_two{
- background-image: url("/assets/img/"); 
+ background-image: url("/assets/img/project/"); 
 }
 
 .projetc_three{
-  background-image: url("/assets/img/"); 
+  background-image: url("/assets/img/project/"); 
 }
 
 .projetc_four{
-  background-image: url("/assets/img/"); 
+  background-image: url("/assets/img/project/"); 
 }

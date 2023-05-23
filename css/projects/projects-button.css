@@ -2,3 +2,6 @@
   display: flex;
   justify-content: center;
 }
+.projects__link{
+  color: var(--colorLightGray);
+}

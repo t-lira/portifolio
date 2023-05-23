@@ -1,18 +1,29 @@
 .section__homepape{
-  padding: 38px 10px 0;
+  padding: 0 5px 0;
+  text-align: center;
+  min-height: 80vh;
+
   display: flex;
   flex-direction: column-reverse; 
-  align-items: center;
-  min-height: 90vh;
+  align-items: center; 
+}
+
+@media (min-width:768px){
+  .section__homepape{
+    padding: 0 40px;
+    text-align: left;
+
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+  }
 }
 
 @media (min-width:1024px){
   .section__homepape{
     padding: 0 150px;
-    flex-direction: row; 
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
     min-height: 100vh;
   }
 }

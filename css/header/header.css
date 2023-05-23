@@ -1,13 +1,12 @@
 
 .header {
-  background-color: var(--colorDarkGrey);
-  padding: 5px;
-  position: fixed;
+  background-color: var(--colorDarkGrey); 
   width: 100%;
 }
 
 @media (min-width: 1024px) {
   .header {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
